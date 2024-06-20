@@ -9,7 +9,7 @@ import { BsDatabaseFillCheck } from "react-icons/bs";
 function AboutGrid({icon, heading, text, label}) {
   return (
     <div className='flex justify-center items-center gap-5 flex-col bg-white rounded-lg m-2 p-3 lg:p-7'>
-<div  className='bg-blue-400 p-6 rounded-full hover:bg-blue-700 cursor-pointer hover:text-white'>
+<div className='bg-blue-400 p-6 rounded-full hover:bg-blue-700 cursor-pointer hover:text-white'>
 {icon}
 </div>
 {/* <div className='bg-blue-400 p-3 rounded-full hover:bg-blue-700 cursor-pointer hover:text-white'>

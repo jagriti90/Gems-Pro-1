@@ -21,10 +21,14 @@ function Contact() {
           <div className='flex justify-center item-start flex-col gap-4 w-full'>
             <h1 className='text-blue-600 font-bold text-[35px]'>Contact info</h1>
             <div id='phone' className='flex gap-4 text-lg font-semibold text-gray-600'>
-              <span className='bg-blue-400 p-3 rounded-full'><BsTelephoneOutbound className='font-bold ' /> </span> +91 867 877 6355 </div>
+              <span className='bg-blue-400 p-3 h-10 w-10 rounded-full'><BsTelephoneOutbound className='font-bold ' /> </span> +91 867 877 6355 </div>
 
-            <div id='phone' className='flex gap-4 text-lg font-semibold text-gray-600'>
-              <span className='bg-blue-400 p-3 rounded-full'><AiOutlineMessage className='font-bold ' /> </span> demomail1633@gmai.com</div>
+            <div id='email' className='flex items-center gap-4 text-base  font-semibold text-gray-600'>
+            <span className='bg-blue-400 p-2 sm:p-3 rounded-full'>
+                <AiOutlineMessage size={16} className='font-bold text-white' />
+            </span>
+            <span classname='text-sm'>demomail1633@gmail.com</span>
+        </div>
 
             <div id='phone' className='flex gap-4 text-lg font-semibold text-gray-600'>
               <span className='bg-blue-400 p-3 h-11 w-11 rounded-full'><AiOutlineHeatMap /> </span> Generate Lorem Ipsum placeholder text for use in your graphic, print and web layouts, </div>
@@ -41,7 +45,7 @@ function Contact() {
           </div>
           <div className='flex flex-col justify-center items-center gap-2 w-full'>
             <input type='text' placeholder='Enter your name ' className='px-4 py-4 w-full border-2 border-blue-500 rounded-lg text-[18px] focus:outline-none focus:border-blue-600 bg-slate-100' />
-            <input type='email' placeholder='Enter your email ' className='px-4 py-4 w-full border-2 border-blue-500 rounded-lg text-[18px] focus:outline-none focus:border-blue-600 bg-slate-100' />
+            <input type='email' placeholder='Enter your email ' className='px-4 py-4  w-full border-2 border-blue-500 rounded-lg text-[18px] focus:outline-none focus:border-blue-600 bg-slate-100' />
             <textarea placeholder='Enter your message' className='px-4 py-4 w-full border-2 border-blue-500 rounded-lg text-[18px] focus:outline-none focus:border-blue-600 bg-slate-100' name='' id='' cols='30' rows='10' ></textarea>
             <button className='bg-blue-700 text-white px-4 py-3 w-full rounded-lg hover:bg-black cursor-pointed '>SUBMIT</button>
           </div>
